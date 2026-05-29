@@ -20,7 +20,7 @@ function SectionBadge({ color, children }: { color: string; children: React.Reac
     <div className="mb-5 text-center">
       <span
         className="inline-flex items-center gap-2 rounded-full bg-[#514733]/40 px-4 py-2 text-[11px] font-bold uppercase tracking-widest ring-1"
-        style={{ color, ringColor: color + "30" }}
+        style={{ color, "--ring-color": color + "30" } as React.CSSProperties}
       >
         {children}
       </span>
