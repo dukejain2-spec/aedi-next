@@ -197,17 +197,17 @@ export const TEAM_MEMBERS = [
   },
   {
     Icon: Code,
-    image: "/images/lakshita.jpg",
-    name: "Lakshita",
-    dept: "Dept. of Electrical Engineering, IIT Delhi",
-    role: "Backend Developer - Intern",
+    image: "/images/saksham.jpg",
+    name: "Saksham",
+    dept: "Dept. of Electrical Engineering, DTU",
+    role: "Circuitry & Simulation — Intern",
     accent: "#826015",
     bio: [
-      "Currently pursuing a B.Tech in Electrical Engineering (3rd year) at IIT Delhi",
-      "Worked on projects ranging from efficient data structures to ML models, including a BERT-based sentiment classifier.",
-      "Former Embedded Systems intern at Texas Instruments; built a smart streetlight prototype focused on energy efficiency and real-time control.",
+      "Currently pursuing a degree in Electrical Engineering at Delhi Technological University (DTU).",
+      "Passionate about circuitry design and simulation, with hands-on experience in electronic systems.",
     ],
   },
+
   {
     Icon: Code,
     image: "/images/duke.jpg",
