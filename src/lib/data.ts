@@ -198,6 +198,7 @@ export const TEAM_MEMBERS = [
   {
     Icon: Code,
     image: "/images/saksham.jpg",
+    objectPosition: "center 20%",
     name: "Saksham",
     dept: "Dept. of Electrical Engineering, DTU",
     role: "Circuitry & Simulation — Intern",

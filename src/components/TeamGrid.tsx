@@ -31,7 +31,8 @@ function TeamCard({ member }: { member: Member }) {
             width={88}
             height={88}
             loading="lazy"
-            className="h-[88px] w-[88px] rounded-full object-cover object-top"
+            className="h-[88px] w-[88px] rounded-full object-cover"
+            style={{ objectPosition: member.objectPosition ?? "center top" }}
           />
         </div>
         <h3 className="font-display text-base font-bold text-[#EAC97C]">{member.name}</h3>
@@ -83,7 +84,8 @@ function TeamCard({ member }: { member: Member }) {
                     width={72}
                     height={72}
                     loading="lazy"
-                    className="h-[72px] w-[72px] rounded-full object-cover object-top"
+                    className="h-[72px] w-[72px] rounded-full object-cover"
+                    style={{ objectPosition: member.objectPosition ?? "center top" }}
                   />
                 </div>
                 <div>
